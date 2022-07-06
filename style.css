@@ -122,34 +122,54 @@ body {
     text-align: center;
 }
 
-.plans {
+.plan-items {
     display: flex;
+    justify-content: center;
 }
 
-.food-plan {
+.plan-item {
     width: 20%;
     height: 300px;
     padding: 70px 25px;
-    background-color: #DDF9FD;
     border-radius: 8px;
-    margin: 60px 30px;
+    margin: 60px 20px;
 }
 
-.food-plan img {
+.plan-item img {
     height: 70px;
     margin-bottom: 35px;
 }
 
-.food-plan h3 {
+.plan-item h3 {
     font-weight: 700;
     font-size: 35px;
     margin-bottom: 18px;
     color: #121212;
 }
 
-.food-plan p {
+.plan-item p {
     font-weight: 400;
     font-size: 24px;
     color: #707070;
 
+}
+
+.food {
+    background-color: #DDF9FD;
+}
+
+.shelter {
+    background-color: #FFDBDB;
+}
+
+.education {
+    background-color: #FFF4D6;
+}
+
+.get-updates {
+    height: 600px;
+}
+
+.get-updates h2 {
+    text-align: center;
 }
