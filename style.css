@@ -45,7 +45,7 @@ body {
 }
 
 .donate-section {
-    height: 700px;
+    height: 750px;
     text-align: center;
 }
 
@@ -57,7 +57,7 @@ body {
 .common-content p {
     font-size: 26px;
     padding: 24px 550px;
-    color: #c0c0c0;
+    color: #707070;
     font-weight: 400;
     margin-bottom: 25px;
 }
@@ -115,7 +115,7 @@ body {
 }
 
 .donate-plan-section {
-    height: 650px;
+    height: 800px;
 }
 
 .donate-plan-content {
@@ -132,7 +132,8 @@ body {
     height: 300px;
     padding: 70px 25px;
     border-radius: 8px;
-    margin: 60px 20px;
+    margin: 60px 20px 80px;
+
 }
 
 .plan-item img {
@@ -167,9 +168,53 @@ body {
 }
 
 .get-updates {
-    height: 600px;
+    margin-top: 20px;
 }
 
 .get-updates h2 {
     text-align: center;
+}
+
+.get-updates p {
+    text-align: center;
+}
+
+
+.get-updates {
+    margin: 20px;
+}
+
+.subscribe-update {
+    margin-top: 30px;
+    background-color: #FFF4D6;
+    width: 50%;
+    display: flex;
+    padding: 110px;
+    justify-content: center;
+    margin-left: 400px;
+    margin-bottom: 90px;
+}
+
+.subscribe-update input {
+    padding: 20px;
+    border: none;
+    width: 35%;
+    background: #D9D9D9;
+    font-size: 22px;
+    border-radius: 10px 0px 0px 10px;
+
+}
+
+.subscribe-update input:focus {
+    outline: none;
+}
+
+.subscribe-update button {
+    padding: 20px;
+    border: none;
+    width: 20%;
+    background: #FF5959;
+    font-size: 22px;
+    border-radius: 0px 10px 10px 0px;
+    color: white;
 }
